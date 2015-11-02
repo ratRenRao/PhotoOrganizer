@@ -9,13 +9,21 @@ namespace PhotoOrganizer.ObjectBuilders
 {
     class BuildPictureObject
     {
-        List<Tag> tags = new List<Tag>();
         Location location;
         string picturePath;
         DateTime dateTaken;
 
-        public BuildPictureObject() { }
+        public BuildPictureObject(string picturePath) 
+        {
+            this.picturePath = picturePath;
+            ParsePictureData();
+        }
 
+        public void ParsePictureData()
+        {
+            // get data from picture 
+            // location = new LocationBuilder(
+        }
 
     }
 }

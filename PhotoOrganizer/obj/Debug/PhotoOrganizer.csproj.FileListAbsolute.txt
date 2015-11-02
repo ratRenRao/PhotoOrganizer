@@ -8,3 +8,4 @@ c:\users\brandon\documents\visual studio 2013\Projects\PhotoOrganizer\PhotoOrgan
 c:\users\brandon\documents\visual studio 2013\Projects\PhotoOrganizer\PhotoOrganizer\obj\Debug\PhotoOrganizer.csproj.GenerateResource.Cache
 c:\users\brandon\documents\visual studio 2013\Projects\PhotoOrganizer\PhotoOrganizer\obj\Debug\PhotoOrganizer.exe
 c:\users\brandon\documents\visual studio 2013\Projects\PhotoOrganizer\PhotoOrganizer\obj\Debug\PhotoOrganizer.pdb
+c:\Users\Brandon\Documents\Visual Studio 2013\Projects\PhotoOrganizer\PhotoOrganizer\obj\Debug\PhotoOrganizer.Form1.resources

@@ -8,6 +8,9 @@ namespace PhotoOrganizer.ObjectBuilders
 {
     class BuildTagObject
     {
-        public BuildTagObject() { }
+        public BuildTagObject(string name)
+        {
+ 
+        }
     }
 }

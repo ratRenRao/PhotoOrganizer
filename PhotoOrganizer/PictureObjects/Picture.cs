@@ -9,7 +9,7 @@ namespace PhotoOrganizer.PictureObjects
     class Picture
     {
         private int id { get; set; }
-        private List<Tag> tags = new List<Tag>();
+        private List<Tag> tags = null;
         private Location location { get; set; }
         private string picPath { get; set; }
 
@@ -18,6 +18,15 @@ namespace PhotoOrganizer.PictureObjects
             this.id = id;
             this.location = location;
             this.picPath = picPath;
+            this.tags = new List<Tag>();
+        }
+        
+        public Picture(int id, Location location, string picPath, List<Tag> tags)
+        {
+            this.id = id;
+            this.location = location;
+            this.picPath = picPath;
+            this.tags = tags; 
         }
 
         public List<Tag> GetTags()

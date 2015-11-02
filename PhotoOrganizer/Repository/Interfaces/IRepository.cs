@@ -8,9 +8,9 @@ namespace PhotoOrganizer.Repository
 {
     interface IRepository
     {
-        protected Object GetObject<T>(int id);
-        protected void InsertObject<T>(Object obj);
-        protected void DeleteObject<T>(int id);
-        protected void UpdateObjectData<T>(int id, Object data);
+        T GetObject<T>(int id);
+        void InsertObject<T>(T obj);
+        void DeleteObject<T>(int id);
+        void UpdateObjectData<T>(int id, T data);
     }
 }
